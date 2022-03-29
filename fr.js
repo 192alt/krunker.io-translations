@@ -3,8 +3,8 @@ menu.btn.ranked Classée
 menu.btn.shop Boutique
 menu.btn.social Social
 menu.btn.maps Mini-jeux
-menu.btn.mods Mods
-menu.btn.settings Réglages
+menu.btn.mods Modes
+menu.btn.settings Paramètres
 menu.btn.customize Personnaliser
 menu.btn.invite Inviter
 menu.btn.invite.clicked Copié
@@ -71,7 +71,7 @@ app.play CLIQUER POUR JOUER
 app.spectate CLIQUER POUR ENTRER EN SPECTATEUR
 app.play.mobile TOUCHE POUR JOUER
 app.spectate.mobile TOUCHE POUR ENTRER EN SPECTATEUR
-app.play.controller APPUYER SUR START
+app.play.controller APPUYER SUR COMMENCEMENT
 app.spectate.controller START POUR ENTRER EN SPECTATEUR
 purchase.error Une erreur est survenue
 purchase.error.click Cliquez ici</a> et réessayez !
@@ -96,7 +96,7 @@ settings.network.lagComp Compensation du lag
 settings.network.optNet Optimisation du réseau
 settings.network.quickplay Force Quickplay
 settings.popup.header Popups
-settings.experimental.header Expérimental
+settings.experimental.header Paramètres Expérimentaux
 settings.experimental.holiday Éffets de fêtes
 settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
@@ -132,7 +132,7 @@ settings.chat.chatTimer Durée des messages
 settings.chat.chatTextOutline Contours du texte
 settings.chat.chatFilter Filtre à obscénités
 settings.quality.header Performance
-settings.quality.updRate Limite des FPS
+settings.quality.updRate Limite de l'FPS
 settings.quality.rendDst Distance de rendu
 settings.quality.res Résolution
 settings.quality.part Particules
@@ -152,7 +152,7 @@ settings.quality.mflash Flash du canon
 settings.quality.flap Rabat du sniper
 settings.quality.lowSpec Config faible
 settings.quality.ambient Ombres ambiantes
-settings.quality.ambientOld Ancien Ombrage (Quand Possible)
+settings.quality.ambientOld Ombrages Anciennes (Quand Possible)
 settings.quality.textureAnim Animation des textures
 settings.quality.objectAnim Animation des objets
 settings.quality.screenShake Tremblement de l'écran
@@ -355,7 +355,7 @@ settings.audio.dialogue Volume des actions
 settings.viewmodel.header Afficher le modèle
 settings.viewmodel.vmSetts Voir les paramètres de modèle
 settings.viewmodel.fov Champ de vision
-settings.viewmodel.fps Champ de vision de l
+settings.viewmodel.fps Champ de vision de l'FPS
 settings.viewmodel.bobbing Balancement de l’arme
 settings.viewmodel.leaning Inclinaison de l’arme
 settings.viewmodel.show.primary Afficher l’arme principale
@@ -528,8 +528,8 @@ windows.controls.drop Lâcher
 windows.controls.wepVis Visibilité de l’arme
 windows.controls.kickVoteY Vote Kick [Oui]
 windows.controls.kickVoteN Vote Kick [Non]
-windows.controls.kpdVoteY KPD Vote [Oui]
-windows.controls.kpdVoteN KPD Vote [Non]
+windows.controls.kpdVoteY Vote KPD [Oui]
+windows.controls.kpdVoteN Vote KPD [Non]
 windows.controls.specFree Activer la caméra libre
 windows.controls.specObj Activer la caméra objective
 windows.controls.specFirst Activer la 1ere personne
@@ -595,9 +595,9 @@ windows.clans.create Créer un clan
 windows.clans.name Nom du clan
 windows.clans.view Voir les clans
 windows.clans.join Rejoindre un clan
-windows.clans.login pour créer ou rejoindre un clan !
+windows.clans.login S'inscrire pour créer ou rejoindre un clan !
 windows.store.header Boutique
-windows.store.spin {0} Spin
+windows.store.spin {0} Rouller
 windows.store.agree En achetant, vous acceptez les {0}termes d’utilisation
 windows.store.purchase Acheter des KR
 windows.store.voucher Entrer un code
@@ -618,7 +618,7 @@ windows.store.found {0}{1} a trouvé
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
-windows.skin.header Choisir le skin
+windows.skin.header Choisir la peau
 windows.hat.header Choisir le chapeau
 windows.back.header Choisir le torse
 windows.waist.header Choisir le bassin
@@ -798,7 +798,7 @@ social.market.wrist Accessoire de poignet
 social.market.melee Mêlée
 social.market.spray Tag
 social.market.dye Teinture
-social.market.collectible Collectible Item
+social.market.collectible Pièce collectible
 social.market.none Aucun objet trouvé
 social.market.login Vous devez être connecté
 social.market.grace disponible dans {0}
@@ -839,8 +839,8 @@ windows.profile.picture Changer l'image
 stats.assists Aides
 stats.nukes Nukes
 stats.melee Mêlées
-stats.fistkills Kills aux points
-stats.thrownkills Kills aux lancers de mêlée
+stats.fistkills Tuages par points
+stats.thrownkills Tuages aux lancers de mêlée
 stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
 stats.crouches Accroupissements
@@ -944,10 +944,10 @@ commands.connected {0} connected, {1} in menu
 commands.host {0} is the current Host.
 commands.noclip.on Noclip - Enabled
 commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
+commands.god.on Mode dieux - Enabled
+commands.god.off Mode dieux - Disabled
+commands.god.on.other Mode dieux - Enabled for {0}
+commands.god.off.other Mode dieux - Disabled for {0}
 commands.smite.on Smite - Enabled
 commands.smite.off Smite - Disabled
 commands.smite.on.other Smite - Enabled for {0}
@@ -973,10 +973,9 @@ commands.forfeit.voted You already voted.
 commands.forfeit.limit You can only start one vote per game
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
-`;
+server.message.join {0} S'est join
+server.message.left {0} Est partie
+server.message.kicked {0} Était kicked
+server.message.banned {0} Était banned
+server.message.votekicked {0} Était sortie par vote
+server.message.arrested {0} Était arrêté par le K.P.D
